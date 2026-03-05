@@ -1,9 +1,9 @@
-///////////// 1-misol /////////////
+//////////////////////////
 
 // let a = Math.floor(100000 + Math.random() * 100000)
 // console.log(a)
 
-///////////// 2-misol /////////////
+//////////////////////////
 
 // let arr = [2, 44, 7, 222, 534, 10]
 // let max = Math.max(...arr)
@@ -11,7 +11,7 @@
 // console.log(`eng kottasi: ${max}`)
 // console.log(`eng kichigi: ${min}`)
 
-///////////// 3-misol /////////////
+//////////////////////////
 
 // let a = prompt("Son kirting") - 0;
 // let res = [];
@@ -34,7 +34,7 @@
 
 // console.log(res);
 
-///////////// 4-misol /////////////
+//////////////////////////
 
 // let a = prompt("Radius kiriting") - 0
 
@@ -42,7 +42,7 @@
 
 // console.log("Aylanani yuzini:", yuzi)
 
-////////////// 5-misol /////////////
+//////////////////////////
 
 // function ortaArifmetik(a, b, c){
 //     let ortacha = (a + b + c) / 3
@@ -51,12 +51,12 @@
 // console.log(ortaArifmetik(4, 7, 10))
 
 
-////////////// 6-misol /////////////
+//////////////////////////
 
 // let random = Math.floor(Math.random() * 49)
 // console.log(random)
 
-////////////// 8-misol /////////////
+//////////////////////////
 
 // let a = 1;
 
@@ -67,7 +67,7 @@
 //     a++;
 // }
 
-////////////// 9-misol /////////////
+//////////////////////////
 
 // let a = prompt("son kiriting") - 0
 // let sum = 0
@@ -77,7 +77,7 @@
 // }
 // console.log("raqamla yigindisi", sum)
 
-//////////// 10-misol /////////////
+/////////////////////////
 
 // let input;
 
@@ -91,77 +91,79 @@
 //     console.log("barchasi", input);
 // }
 
-////////////// 11-misol /////////////
+///////////////////////////
 
 // let a = 0
 // let b = 1
 
 // while (a < 100) {
 //     console.log(a)    
-//     let keyingi = a + b
+//     let next = a + b
 //     a = b            
-//     b = keyingi           
+//     b = next           
 // }
 
-
-// let n = prompt("Son kirit") - 0
+///////////////////////////
+// let a = prompt("Son kirit") - 0
 // let i = 1
-// let faktorial = 1
+// let fak = 1
 
-// while (i <= n){
-//     faktorial *= i
+// while (i <= a){
+//     fak *= i
 //     i++
 // }
 
-// console.log(`${n}! = ${faktorial}`)
+// console.log(`${a}! = ${fak}`)
 
 
 
-
-// const password = "8007"
+//////////////////////////
+// const password = "7844"
 // let input
 // do {
 //     input = prompt("Parolli kiriting")
 //     if (input !== password) {
-//         console.log("habar op turas")
+//         console.log("Notogri parol, qayta urinib ko'ring")
 //     }
 // } while (input !== password)
-// console.log("togri parol")
+// console.log("Kirish muvaffaqiyatli")
 
 
-
-// let secret = Math.floor(Math.random() * 20) + 1
-// let imkoniyat
+//////////////////////////
+// let a = Math.floor(Math.random() * 20) + 1
+// let urinish
 // do {
-//     imkoniyat = prompt("1-20 orasida son kiriting:") - 0
-//     if (imkoniyat === secret) {
-//         console.log("Topildi 🎉");
+//     urinish = prompt("1-20 gacha son kiriting:") - 0
+//     if (urinish === a) {
+//         console.log("Topingiz! ");
 //     } else {
-    //         console.log("Topilmadi 😒")
+    //         console.log("Topilmadi, qayta urinib ko'ring.");
 //     }
-// } while (imkoniyat !== secret)
+// } while (urinish !== a)
 
-
-// let sum = 0
-// let count = 0
-// let num
+//////////////////////////
+// let a = 0
+// let b = 0
+// let nan
 // do {
-//     num = prompt("son kirit") - 0
+//     nan = prompt("son kirit") - 0
 
-//     if (num !== 0){
-//         sum += num    
-//         count++
+//     if (nan !== 0){
+//         a += nan    
+//         b++
 //     }
 
-// } while (num !== 0)
+// } while (nan !== 0)
 
-// if (count > 0) {
-//     let orta = sum / count;
+// if (b > 0) {
+//     let orta = a / b;
 //     console.log("ortacha qiymati", orta);
 // } 
 
-// let oy = prompt ("oyni kirit")-0
-// switch (oy){
+///////////////////////////
+
+// let a = prompt ("oyning nomini kiriting")-0
+// switch (a){
 //     case 12:
 //     case 1:
 //     case 2:
@@ -187,35 +189,36 @@
 //     break
 
 //     default:
-//     console.log("Notogri oy")
+//     console.log("Notogri kiritildi")
 // }
 
+////////////////////////
 
-// let summa = prompt ("summani kiriting")
-// let valyuta = prompt ("valyutani tanlang EURO USD UZS RUB")
+// let a = prompt ("summani kiriting")
+// let b = prompt ("valyutani tanlang EURO USD UZS RUB")
 
-// switch (valyuta.toLowerCase()){
+// switch (b.toLowerCase()){
 //     case "usd":
-//     console.log(summa*12250 ,"uzs")
+//     console.log(a*12250 ,"uzs")
 //     break
 //     case "eur":
-//     console.log(summa*14371,"uzs")
+//     console.log(a*14371,"uzs")
 //     break
 //     case "rub":
-//     console.log(summa*158160 , "uzs")
+//     console.log(a*158160 , "uzs")
 //     break
 //     case "uzs":
-//     console.log(summa +"uzs")
+//     console.log(a +"uzs")
 //     break 
 //     default:
-//     console.log("boshqa valyuta kiritikdi")
+//     console.log("Iltimos faqat korsatilgan valyutalardan birini tanlang")
 // }
 
+//////////////////////////
 
-
-// let ball = +prompt("ball kiritng");
-// let bolish = Math.floor(ball / 10);
-// switch (bolish) {
+// let a = +prompt("ballingizni kiritng");
+// let b = Math.floor(a / 10);
+// switch (b) {
 //     case 10:
 //     case 9:
 //     console.log("A");
@@ -243,10 +246,10 @@
 //     break;
 
 //     default:
-//     console.log("notogri bal");
+//     console.log("notogri ball kiritildi");
 // }
 
-
+///////////////////////////
 
 // let kun = prompt("hafta kunini kiriting");
 
@@ -273,55 +276,5 @@
 //     console.log("Yakshanba - Dam olish kuni");
 //     break;
 //     default:
-//     console.log("Notogri kun raqami");
+//     console.log("Notogri kun kiritdingiz");
 // }
-
-
-// let text = "sanjarbek___8007";
-// function raqamniAjratsh(text){
-//     let natija = "";
-//     for (let i = 0; i < text.length; i++){
-//         if (text[i] >= "0" && text[i] <= "9"){
-//             natija += text[i]
-//         }
-//     }
-//     return natija
-// }
-// console.log(raqamniAjratsh(text))
-
-
-// let numbers = [1,2,3,4,5,6]
-// let kvadrat = numbers.map(function(num){
-//     return num * num
-// })
-// console.log(kvadrat)
-
-
-// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// let juftSon = numbers.filter(function(num){
-//     return num % 2 === 0
-// })
-// console.log(juftSon)
-
-
-// let numbers = [3, 7, 0, -5, 8, 2]
-// let manfiy = numbers.find(function(num){
-//     return num < 0
-// })
-// console.log(manfiy)
-
-
-// function kattasi(a, b, c){
-//     if (a >= b && a >= c){
-//         return a
-//     } else if (b >= a && b >= c){
-//         return b
-//     } else {
-    //         return c
-//     }
-// }
-
-// console.log(kattasi(10, 20, 30)) 
-
-
-
